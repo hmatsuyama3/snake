@@ -213,6 +213,7 @@ public class GamePanel extends JPanel implements ActionListener {
                 y[0] = 0;
             bodyParts = 6;
             direction = 'R';
+            applesEaten = 0;
             this.remove(newGameButton);
             startGame();
 
